@@ -1,11 +1,9 @@
-关于“制定关键设施施工期间交通管理的方法研究”的代码与论文
+This study focuses on developing traffic management methodologies during the construction of critical infrastructure, employing multiple algorithms for an in-depth exploration of traffic assignment within Qinzhou city's road network. We primarily utilize the link-based Frank-Wolfe algorithm, the path-based Projected Gradient algorithm, and the bush-based Algorithm B. These are well-established methods in the field of traffic assignment and have broad applicability.
 
-本研究聚焦于关键设施施工期间交通管理的方法，选用了多种算法对钦州市的道路网络交通分配进行了深入探究。我们主要采用了基于路段的Frank-Wolfe算法、基于路径的Projected gradient算法以及基于无回路的Algorithm B算法，这些算法都是交通分配领域的经典方法，具有广泛的应用价值。
+To facilitate understanding and verification of our findings, we provide comprehensive HTML documentation. These documents not only present the execution results of the algorithms but also allow readers to download and review them directly. For those with a deeper interest in traffic assignment problems or wishing to explore the performance of these algorithms further, the code snippets can be easily copied and executed on the Python platform.
 
-为了方便读者理解和验证我们的研究成果，我们提供了详细的HTML文档。这些文档不仅展示了算法的执行结果，还允许读者直接下载查看。如果您对交通分配问题有更深的兴趣，或者想进一步探索这些算法的性能，您还可以复制代码片段并在Python平台上执行。
+Moreover, we propose a gradient descent heuristic algorithm to solve a two-stage model based on OD matrix correction using link flow data. In this process, the computation of partial derivatives is a crucial step. While existing literature offers several methods for deriving partial derivatives—such as matrix-based formulae and variational inequalities—we adopt a bush-based traffic assignment approach in this study. This method proves to be both efficient and accurate when dealing with complex traffic networks.
 
-此外，我们还进一步提出了梯度下降启发式算法，用于求解基于断面流量修正OD矩阵的两阶段模型。在求解过程中，偏导数的计算是关键一步。尽管在现有文献中已经存在一些求解偏导数的方法，如基于矩阵的公式法、变分不等式等，但我们在本研究中采用了基于无回路交通分配算法的方法，这种方法在处理复杂的交通网络时具有较高的效率和准确性。
+Similarly, detailed results for this model and algorithm are provided in the HTML documentation. Readers can download the documentation for further review or copy the code to conduct more in-depth studies and experiments within the Python environment.
 
-同样，我们也在HTML文档中提供了关于这个模型和算法的详细结果。您可以通过下载文档来查看这些结果，或者复制代码在Python环境中进行更深入的研究和实验。
-
-我们希望通过这些代码和文档，能够为相关领域的研究者和实践者提供有价值的参考和借鉴，共同推动交通管理领域的发展和进步。
+Through the provision of these codes and documents, we aim to offer valuable references and insights for researchers and practitioners in the field, contributing to the advancement of traffic management methodologies.
